@@ -16,7 +16,7 @@ if (port == null || port == "") {
 }
 
 app.get("/port", (req, res) => {
-  req.get("user-agent");
+  console.log(req.get("user-agent"));
   res.send(`This server runs on port: ${port}`);
 });
 
