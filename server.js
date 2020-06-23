@@ -16,6 +16,7 @@ if (port == null || port == "") {
 }
 
 app.get("/port", (req, res) => {
+  console.dir(req.ip);
   res.send(`This server runs on port: ${port}`);
 });
 
