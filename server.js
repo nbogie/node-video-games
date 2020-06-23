@@ -2,10 +2,23 @@ const express = require("express");
 const games = require("./games.json");
 const app = express();
 
+app.get("/", (req, res) => {
+  res.send("hello");
+});
+
 app.get("/games", (req, res) => {
   res.send(games);
 });
 
-app.listen(3000, () => {
-  console.log("Welcome to Video Games!", "Listening on port: 3000");
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 7777;
+}
+
+app.get("/port", (req, res) => {
+  res.send(`This server runs on port: ${port}`);
+});
+
+app.listen(port, () => {
+  console.log(`Welcome to Video Games!, Listening on port: ${port}`);
 });
