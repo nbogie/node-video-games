@@ -5,6 +5,7 @@
     "genre": "platform"
   },
   { "id": "101", "title": "Dwarf Fortress", "genre": "Simulation" },
+  { "id": "104", "title": "Spelunky", "genre": "Roguelike/Platform" },
   { "id": "102", "title": "Minecraft", "genre": "Sandbox" },
   {
     "id": "103",
