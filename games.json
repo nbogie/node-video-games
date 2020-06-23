@@ -1,0 +1,14 @@
+[
+  {
+    "id": "100",
+    "title": "Super Mario",
+    "genre": "platform"
+  },
+  { "id": "101", "title": "Dwarf Fortress", "genre": "Simulation" },
+  { "id": "102", "title": "Minecraft", "genre": "Sandbox" },
+  {
+    "id": "103",
+    "title": "dota2",
+    "genre": "Multiplayer online battle arena"
+  }
+]
